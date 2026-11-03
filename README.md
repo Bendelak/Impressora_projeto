@@ -124,7 +124,7 @@ As preferências ficam em `config.json`, ao lado do programa, e são criadas aut
 | Chave | Descrição | Padrão |
 |---|---|---|
 | `impressora` | Nome da impressora no Windows | `EPSON TM-T20X Receipt6` |
-| `cabecalho` | Cabeçalho da aba Texto | `POSTO 44` |
+| `cabecalho` | Cabeçalho da aba Texto | `Sistema de impressão` |
 | `fonte_texto` / `fonte_banho` | Tamanho de fonte padrão | `Média (2x2)` |
 | `wifi_titulo` / `wifi_rede` / `wifi_senha` | Dados do QR Code do WiFi | veja `CONFIG_PADRAO` |
 | `gdc_ip` / `gdc_porta` | Endereço do GDC | `10.1.1.199` / `888` |
@@ -170,7 +170,7 @@ Com o Python instalado no Windows, dê dois cliques em `compilar.bat` ou rode:
 py -m pip install --upgrade pyinstaller customtkinter pywin32
 
 py -m PyInstaller --noconfirm --clean --windowed --onedir ^
-  --name "Sistema Posto 44" ^
+  --name "Sistema de impressão" ^
   --icon "icone.ico" ^
   --add-data "icone.ico;." ^
   --collect-all customtkinter ^
@@ -178,7 +178,7 @@ py -m PyInstaller --noconfirm --clean --windowed --onedir ^
   app.pyw
 ```
 
-O programa fica em `dist\Sistema Posto 44\`. Dicas:
+O programa fica em `dist\Sistema de impressão\`. Dicas:
 
 - Copie a pasta para um local fixo (ex.: `C:\Posto44\`) antes de usar; uma nova compilação apaga o `dist`.
 - Os dados do usuário ficam **ao lado do `.exe`**. Ao atualizar, substitua só o `.exe` e a pasta `_internal`.
@@ -201,8 +201,4 @@ O programa fica em `dist\Sistema Posto 44\`. Dicas:
 - O `config.json` guarda a **senha do WiFi**; ele está no `.gitignore` e **não deve ser publicado**.
 - Antes de tornar o repositório público, troque no código os valores padrão de WiFi (`CONFIG_PADRAO` em `tela_ctk.py`) e de IP do GDC (`gdc.py`) por valores genéricos.
 
-## Autor e licença
 
-Desenvolvido por **[Seu nome]** para o Posto 44.
-
-Licença: **[defina a licença — por exemplo, MIT]**.
