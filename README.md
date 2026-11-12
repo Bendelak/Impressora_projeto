@@ -201,4 +201,12 @@ O programa fica em `dist\Sistema de impressão\`. Dicas:
 - O `config.json` guarda a **senha do WiFi**; ele está no `.gitignore` e **não deve ser publicado**.
 - Antes de tornar o repositório público, troque no código os valores padrão de WiFi (`CONFIG_PADRAO` em `tela_ctk.py`) e de IP do GDC (`gdc.py`) por valores genéricos.
 
+## Criador
+
+- Warlen Kauã
+
+## Cocriador
+
+- Luan Delaflora
+
 
