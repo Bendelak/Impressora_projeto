@@ -1,8 +1,3 @@
-"""Interface gráfica (customtkinter) do sistema de impressão — Posto 44.
-
-Requer:  pip install customtkinter
-"""
-
 import csv
 import json
 import logging
@@ -88,8 +83,8 @@ CONFIG_PADRAO = {
     "fonte_texto": "Média (2x2)",
     "fonte_banho": "Média (2x2)",
     "wifi_titulo": "WIFI",
-    "wifi_rede": "Clientes Posto 44",
-    "wifi_senha": "posto442025",
+    "wifi_rede": "teste",
+    "wifi_senha": "teste",
 }
 
 # --- cores (tema escuro com vermelho do Posto 44) ---
