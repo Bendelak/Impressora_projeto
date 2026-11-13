@@ -87,7 +87,7 @@ CONFIG_PADRAO = {
     "wifi_senha": "teste",
 }
 
-# --- cores (tema escuro com vermelho do Posto 44) ---
+# --- cores 
 BG = "#0D141F"
 SIDEBAR = "#101823"
 CARD = "#121B28"
