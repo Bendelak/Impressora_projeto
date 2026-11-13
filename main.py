@@ -384,7 +384,7 @@ class Impressora:
             self._iniciar(),
             ALINHAR_CENTRO,
             fonte(0x11),
-            _codificar("POSTO 44\n"),
+            _codificar("SISTEMA IMPRESSAO\n"),
             FONTE_NORMAL,
             _codificar(f"{separador}\nData: {data}\n\n"),
             fonte(0x22),
