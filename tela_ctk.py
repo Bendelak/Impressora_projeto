@@ -236,7 +236,7 @@ class Tela:
     # --------------------------------------------------------
 
     def _configurar_janela(self):
-        self.janela.title("Posto 44 — Sistema de Impressão")
+        self.janela.title("Sistema de Impressão")
 
         largura, altura = 1080, 700
         pos_x = (self.janela.winfo_screenwidth() - largura) // 2
@@ -254,7 +254,7 @@ class Tela:
         topo.pack_propagate(False)
 
         ctk.CTkLabel(
-            topo, text="⛽ POSTO 44", font=self.f["logo"], text_color="white"
+            topo, text="📠 Sistena de Impressao", font=self.f["logo"], text_color="white"
         ).pack(side="left", padx=(28, 18))
 
         ctk.CTkFrame(topo, width=1, height=50, fg_color="#C9505C").pack(side="left")
