@@ -79,7 +79,7 @@ PLACEHOLDER_TEXTO = (
 
 CONFIG_PADRAO = {
     "impressora": NOME_IMPRESSORA,
-    "cabecalho": "POSTO 44",
+    "cabecalho": "Sistema impressao",
     "fonte_texto": "Média (2x2)",
     "fonte_banho": "Média (2x2)",
     "wifi_titulo": "WIFI",
